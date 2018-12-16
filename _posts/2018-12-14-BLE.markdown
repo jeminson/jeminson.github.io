@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 # Classic Bluetooth && BLE (Bluetooth Low Energy)
-   **Bluetooth**is long range networking protocol (like WI-FI) which is designed to quickly and automatically connect devices. 
+   **Bluetooth** is long range networking protocol (like WI-FI) which is designed to quickly and automatically connect devices. 
 
 ## Basic
 1. What is **Classic Bluetooth**?
