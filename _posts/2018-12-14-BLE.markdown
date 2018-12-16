@@ -59,6 +59,7 @@ categories: jekyll update
     - **Connected mode**
         + Peripheral and central device establish a one-to-one conversation. This is how they exchange complex information.
 ## BLE connection procedure
+![image](/assets/images/BLEconnectionProcedure.png)
 <pre>
 <img src="https://github.com/jeminson/jeminson.github.io/blob/master/assets/Screenshots/BLEconnectionProcedure.png"/>
 </pre>
