@@ -63,4 +63,14 @@ categories: jekyll update
         + Peripheral and central device establish a one-to-one conversation. This is how they exchange complex information.
 
 ## BLE connection procedure
-![image](/assets/images/BLEconnectionProcedure.png)
+![BLE connection](/assets/images/BLEconnectionProcedure.png)
+
+
+11. What is **Advertising**?
+    - Advertising is the primary way that peripherals make their presence kown via BLE. 
+    - **Peripheral** is responsible for advertising 
+    
+12. What is **Scanning**?
+    - It is central device's job which is scanning for peripherals. 
+    - **central** is repsonsible for scanning 
+    ![Central and Peripheral Job](/assets/images/central_and_peripheral_job.png)    
