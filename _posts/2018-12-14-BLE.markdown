@@ -28,18 +28,36 @@ categories: jekyll update
     - BLE 4.0 offers low power consumption of magnitude of 1-50% of that of Classic Bluetooth.
     - **Classic Bluetooth** can handle a lot of data, but consumes battery life quickly and costs a lot more. 
     - **BLE** is used for applications that do not need to exchange large amounts of data, and can therefore run on battery power for years at a cheaper cost.
-    
+
 5. What is **Service**? 
     - Collections of characteristics and relationships to other services that encapsulate the behavior of part of a device.
     
 6. What is **Characteristic**? 
     - Characteristic(attribute types) can be considered as a variable. Which contains a single locial value. 
 
-~~~~
-GATT(Generic Attribute Profile) is two BLE devices transfer data back and forth using concepts 
-called Service and Characteristics. 
-~~~~
+7. What is **GATT**? 
+    - GATT(Generic Attribute Profile) is two BLE devices transfer data back and forth using concepts called Service and Characteristics. 
+    - GATT database is comprised of Services and Characteristics. 
+    - All functions are divided up into services and characteristics. 
+    - Each service and characteristic has its own **UUID**
+    
+8. What is **GAP**? 
+    - GAP(Generic Attribute Profile) controls **connections** and **advertising** Bluetooth. 
+    - GAP is what makes your device visible to the outside world, and determines how two devices can(or can't) interact with each other. 
    
+9. Two key concepts for **Device Roles**
+    - Central devices 
+        + Central device is usually mobile phone or tablet that you connect to with far more processing power and memory. 
+    - Peripheral devices 
+        + Peripheral device is small, low power, resource contrained devices which can connect to a much more powerful central device
+        + Such as, heart rate monitor, a BLE enabled proximity tag(근접센서 태그), etc.
+    
+10. Two models BLE uses are.
+    - Advertising mode (= Broadcast Mode)
+        + Peripheral sends out a bit of information(advertising interval) that any device in the area can pick up. So that central devices know that there are peripherals around 
+       
+    - Connected mode
+        + Peripheral and central device establish a one-to-one conversation. This is how they exchange complex information.
 
 
 
