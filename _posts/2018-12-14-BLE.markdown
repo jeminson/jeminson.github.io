@@ -75,4 +75,18 @@ categories: jekyll update
     - **central** is repsonsible for scanning 
 
 13. Central and Peripheral's Job
-![Central and Peripheral Job](/assets/images/central_and_peripheral_job.png)    
+    - **Central's Job** 
+        + Scanning for peripherals 
+        + Connecting to a peripherals 
+        + Disconnecting from a peripherals 
+        + Discovering services 
+        + Discovering characteristics of a service 
+        + Subscribing to a characteristic 
+        + Receiving data from a characteristic 
+    - **Peripheral's Job**        
+        + Advertising a service and characterisitc 
+        + Adding service and characteristic to the PeripheralManager 
+        + Detecting of new subscribers to a characteristics 
+        + Detecting of unsubscribing 
+        + Handling of unready state of the device 
+   
