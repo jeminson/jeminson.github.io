@@ -46,19 +46,17 @@ categories: jekyll update
     - GAP is what makes your device visible to the outside world, and determines how two devices can(or can't) interact with each other. 
    
 9. Two key concepts for **Device Roles**
-    - Central devices 
+    - **Central devices** 
         + Central device is usually mobile phone or tablet that you connect to with far more processing power and memory. 
-    - Peripheral devices 
+    - **Peripheral devices** 
         + Peripheral device is small, low power, resource contrained devices which can connect to a much more powerful central device
         + Such as, heart rate monitor, a BLE enabled proximity tag(근접센서 태그), etc.
     
 10. Two models BLE uses are.
-    - Advertising mode (= Broadcast Mode)
+    - **Advertising mode** (= Broadcast Mode)
         + Peripheral sends out a bit of information(advertising interval) that any device in the area can pick up. So that central devices know that there are peripherals around 
        
-    - Connected mode
+    - **Connected mode**
         + Peripheral and central device establish a one-to-one conversation. This is how they exchange complex information.
 
-
-
-
+![BLE connection procedure](https://github.com/jeminson/jeminson.github.io/blob/master/assets/Screenshots/BLEconnectionProcedure.png) 
