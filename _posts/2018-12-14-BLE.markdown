@@ -16,12 +16,12 @@ categories: jekyll update
    - It is designed for continuous two-way data transfer. 
    - It is highly effective, but only for short distances.
    - It is a perfect solution in the case of streaming audio and video, or mice and other devices that need a continuous, broadband link.
----   
+
 2. What is **BLE 4.0**? 
    - Bluetooth Low Energy is developed by the [Bluetooth Special Interest Group (SIG)](https://www.bluetooth.com/) for **short-range communication**. 
    - BLE is not intended to use for stream data 
    - **Low power consumption** is the most important difference (Most important difference)
---- 
+
 3. **Commons** between Classic Bluetooth and BLE 
     - Both Classic Bluetooth and BLE operate in the same 2.4 GHz ISM band.
     - Both Classic Bluetooth and BLE operate with the same pairing technology, **authentication** and even **encryption**
