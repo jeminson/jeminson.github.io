@@ -19,7 +19,6 @@ categories: jekyll update
    - BLE is not intended to use for stream data 
    - **Low power consumption** is the most important difference (Most important difference)
 
-
 3. **Commons** between Classic Bluetooth and BLE 
     - Both Classic Bluetooth and BLE operate in the same 2.4 GHz ISM band.
     - Both Classic Bluetooth and BLE operate with the same pairing technology, **authentication** and even **encryption**
@@ -29,11 +28,17 @@ categories: jekyll update
     - BLE 4.0 offers low power consumption of magnitude of 1-50% of that of Classic Bluetooth.
     - **Classic Bluetooth** can handle a lot of data, but consumes battery life quickly and costs a lot more. 
     - **BLE** is used for applications that do not need to exchange large amounts of data, and can therefore run on battery power for years at a cheaper cost.
+    
+5. What is **Service**? 
+    - Collections of characteristics and relationships to other services that encapsulate the behavior of part of a device.
+    
+6. What is **Characteristic**? 
+    - Characteristic(attribute types) can be considered as a variable. Which contains a single locial value. 
 
-5. What is Service? 
-   -  
-
-
+~~~~
+GATT(Generic Attribute Profile) is two BLE devices transfer data back and forth using concepts 
+called Service and Characteristics. 
+~~~~
    
 
 
