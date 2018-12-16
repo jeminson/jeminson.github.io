@@ -73,4 +73,6 @@ categories: jekyll update
 12. What is **Scanning**?
     - It is central device's job which is scanning for peripherals. 
     - **central** is repsonsible for scanning 
-    ![Central and Peripheral Job](/assets/images/central_and_peripheral_job.png)    
+
+13. Central and Peripheral's Job
+![Central and Peripheral Job](/assets/images/central_and_peripheral_job.png)    
