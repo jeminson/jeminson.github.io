@@ -10,3 +10,11 @@ categories: jekyll update
   
 ## APNs Workflow 
 ![APNs Workflow](/assets/images/APNsWorkFlow.png)
+
+### Steps 
+1. The app register push notifications for the iOS 
+2. iOS asks for **device token** from **APNs Server**
+3. Once the app receives the **device token**, the app will send the token to **external server**
+4. When something interesting happens, the server sends **push notification** to the **APNs server**
+5. Then the **APNs** sends the push notification to the app
+
