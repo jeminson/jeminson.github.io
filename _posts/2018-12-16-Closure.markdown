@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "About Closure"
+date:   2018-12-16 18:07:53 -0600
+categories: jekyll update
+---
+
+# Closure 
+  - **Closure** can capture and store references to any constants and variables from the context in which they are defined.
+  
+  
+## The Sorted Method 
+  - Swift's standard library provides a method called ==sorted(by:)==, 
+  
