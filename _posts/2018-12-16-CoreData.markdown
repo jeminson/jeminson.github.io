@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "About Coredata"
+date:   2018-12-16 19:44:53 -0600
+categories: jekyll update
+---
+
+# CoreDate 
+  - One of the most popular frameworks provided by Apple for iOS and macOS apps. 
+  - **Coredata** is not a Database, it is framework to save, track, modify, and filter the data within iOS apps. 
+  - **Coredata** uses **SQLite** as it's persistent store but the framework itself is not the database. 
