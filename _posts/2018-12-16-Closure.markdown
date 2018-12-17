@@ -10,5 +10,11 @@ categories: jekyll update
   
   
 ## The Sorted Method 
-  - Swift's standard library provides a method called ==sorted(by:)==, 
+  - Swift's standard library provides a method called **sorted(by:)**, which sorts an array of values of a known type.
   
+## Syntax 
+```
+  { (parameters) -> return type in 
+      statements
+  }
+``` 
