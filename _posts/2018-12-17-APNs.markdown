@@ -5,5 +5,8 @@ date:   2018-12-17 12:27:53 -0600
 categories: jekyll update
 ---
 
-# APNs (Apple Push Notification Server) 
-
+# APNs (Apple Push Notification Service) 
+  - **APNs** platform notification service created by Apple Inc. that enables third party application developers to send notification data to applications installed on Apple devices 
+  
+## APNs Workflow 
+![APNs Workflow](/assets/images/APNsWorkFlow.png)
