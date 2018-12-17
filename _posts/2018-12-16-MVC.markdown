@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "About MVC"
+date:   2018-12-16 23:23:53 -0600
+categories: jekyll update
+---
+
+# MVC (Model-View-Controller) 
+  - **Model** is where your data resides 
+  - **View** is the face of the app (reusable)
+    + UILabel is a **view** that presents text on the screen
+  - **Controller** mediates between the view and the model, typically via the delegation pattern 
+    + Controller entity won't know the concrete view it's dealing with. Instead, it will communicate with an abstraction via a protocol. 
+    + **Example** can be ```UITableView``` communicate with its data source via the ```UITableViewDataSource``` protocol 
