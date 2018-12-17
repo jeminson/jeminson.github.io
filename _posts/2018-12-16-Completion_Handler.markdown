@@ -27,7 +27,9 @@ firstVC.present(nextVC, animation: true, completion: { () in
   print('Done")
 })
 ```
+
 Here, print "Done" will be printed only after **firstVC** has moved to **nextVC**
+
 Same code but using **Trailing Closure** 
 ```
 firstVC.present(nextVC, animation: true) { () in 
