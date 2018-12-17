@@ -8,5 +8,12 @@ categories: jekyll update
 # RxSwift 
 
 ## What is **ReactiveX**?
-  - An API for asynchronous programming with observable streams 
-    + ReactiveX is combination of the best ideas from the **Observer pattern**, the **Iterator pattern**, and **functional programming**
+  - An API for asynchronous programming with observable streams. 
+    + ReactiveX is combination of the best ideas from the **Observer pattern**, the **Iterator pattern**, and **functional programming**.
+    
+## RxSwift - ReactiveX library for Swift 
+
+1. Observable Sequences 
+  - Everything in **RxSwift** is an **observable sequence**.
+  - Arrays, Strings, or Dictionaries will be converted to **observable sequence**.
+    
