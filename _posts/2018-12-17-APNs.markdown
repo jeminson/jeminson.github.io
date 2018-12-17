@@ -11,10 +11,18 @@ categories: jekyll update
 ## APNs Workflow 
 ![APNs Workflow](/assets/images/APNsWorkFlow.png)
 
-### Steps 
+### Workflow (Mechanism)
 1. The app register push notifications for the iOS 
 2. iOS asks for **device token** from **APNs Server**
 3. Once the app receives the **device token**, the app will send the token to **external server**
 4. When something interesting happens, the server sends **push notification** to the **APNs server**
 5. Then the **APNs** sends the push notification to the app
 
+### APNs Payload 
+ - Each notification your provider server sends to the Apple Push Notification service (APNs) includes a payload. 
+ - Payload contains any custom data that you want to send to your app and includes information about how the system should notify the user. 
+ - You construct this payload as a JSON dictionary and send it as the body content of your HTTP/2 message. 
+ - The maximum size of the payload depends on the notification you are sending:
+    + For **TCB Binary API** - Maximum size is 2KB
+    + For **regular remote notifications** - Maximum size is 4KB (4096 bytes)
+    + For **Voice over Internet Protocol (VoIP) notifications** = Maximum size is 5KB (5120 bytes)
