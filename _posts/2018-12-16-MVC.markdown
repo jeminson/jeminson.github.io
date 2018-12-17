@@ -29,6 +29,7 @@ categories: jekyll update
     
 ## Controller Layer 
   - **Controller Layer** is the least reusable part of your app 
+  - Make **view** and **model** to communicate 
   - It is the brain of the app (decides what happens next) 
   - It should be easily **testable** 
   - Layers are cleanly decoupled 
@@ -36,3 +37,4 @@ categories: jekyll update
   
   ## Model Layer 
   - **Model Layer** contains model objects 
+  - No **businesss logic** 
