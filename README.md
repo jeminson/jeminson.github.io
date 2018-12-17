@@ -1,1 +1,1 @@
-# Personal Blog for Swift 
+# Personal Blog about Swift 
