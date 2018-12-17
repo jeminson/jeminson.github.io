@@ -35,6 +35,8 @@ firstVC.present(nextVC, animation: true) { () in
 }
 ```
 
-## Pass Data Through Completion Handler
-  - **Most Important Part**. If you have used ```NSURL```, any type of API that you grab from **JSON/Data** from other platforms 
+
+  
+  
+  
   
